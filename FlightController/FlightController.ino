@@ -175,7 +175,6 @@ void Stabilizer()
   {
     if (xRollCorrection >= ch2_center)
     {
-      Serial.print("this");
       throttleValMotor3 += 5;
       if (throttleValMotor3 > 175)
       {
